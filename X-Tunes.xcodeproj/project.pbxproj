@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E2A365010E075E7300BB2545 /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E2A3650F0E075E9E00BB2545 /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E2A365220E075EEF00BB2545 /* PBXTargetDependency */,
+				E2A365050E075E7B00BB2545 /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+		E22294200E085D9C00E07D92 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E222941E0E085D9C00E07D92 /* License.rtf */; };
+		E22DFBC00E074F3900B49A70 /* X_Tunes_PreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = E22DFBBE0E074F3900B49A70 /* X_Tunes_PreferencePane.m */; };
+		E22DFBC30E074F4100B49A70 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E22DFBC10E074F4100B49A70 /* Icon.icns */; };
+		E22DFBDC0E07500200B49A70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22DFBD00E07500200B49A70 /* InfoPlist.strings */; };
+		E22DFBDD0E07500200B49A70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22DFBD20E07500200B49A70 /* Localizable.strings */; };
+		E22DFBDE0E07500200B49A70 /* HotKeyButton.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22DFBD40E07500200B49A70 /* HotKeyButton.plist */; };
+		E22DFBDF0E07500200B49A70 /* Help.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E22DFBD60E07500200B49A70 /* Help.rtf */; };
+		E22DFBE10E07500200B49A70 /* X_Tunes_PreferencePane.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22DFBDA0E07500200B49A70 /* X_Tunes_PreferencePane.xib */; };
+		E22DFBEB0E0750CA00B49A70 /* HotKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E22DFBE60E0750CA00B49A70 /* HotKeyButton.m */; };
+		E25EED5C0E0762EB00F9A178 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25EED5B0E0762EB00F9A178 /* Carbon.framework */; };
+		E26E21BC0E08540B00781703 /* X-Tunes Daemon.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A365150E075EC700BB2545 /* X-Tunes Daemon.app */; };
+		E2A365340E075F7600BB2545 /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A3652B0E075F7600BB2545 /* Play.tiff */; };
+		E2A365350E075F7600BB2545 /* FastForward.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A3652C0E075F7600BB2545 /* FastForward.tiff */; };
+		E2A365360E075F7600BB2545 /* Rewind.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A3652D0E075F7600BB2545 /* Rewind.tiff */; };
+		E2A365370E075F7600BB2545 /* Previous.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A3652E0E075F7600BB2545 /* Previous.tiff */; };
+		E2A365380E075F7600BB2545 /* Up.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A3652F0E075F7600BB2545 /* Up.tiff */; };
+		E2A365390E075F7600BB2545 /* Stop.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A365300E075F7600BB2545 /* Stop.tiff */; };
+		E2A3653A0E075F7600BB2545 /* Down.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A365310E075F7600BB2545 /* Down.tiff */; };
+		E2A3653B0E075F7600BB2545 /* Next.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E2A365320E075F7600BB2545 /* Next.tiff */; };
+		E2A365520E075FC900BB2545 /* OverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A365490E075FC900BB2545 /* OverlayWindow.m */; };
+		E2A365530E075FC900BB2545 /* AppleScript.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A3654B0E075FC900BB2545 /* AppleScript.m */; };
+		E2A365540E075FC900BB2545 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A3654D0E075FC900BB2545 /* OverlayView.m */; };
+		E2A365550E075FC900BB2545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A3654E0E075FC900BB2545 /* main.m */; };
+		E2A365560E075FC900BB2545 /* DeamonController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A365510E075FC900BB2545 /* DeamonController.m */; };
+		E2A365710E07616900BB2545 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A3656F0E07616900BB2545 /* MainMenu.xib */; };
+		E2A365750E07618500BB2545 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		E2A3658A0E07625B00BB2545 /* DeamonApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A365880E07625B00BB2545 /* DeamonApplication.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2A365040E075E7B00BB2545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D202CE80486D31800D8A456;
+			remoteInfo = "Preference Pane";
+		};
+		E2A365210E075EEF00BB2545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2A365140E075EC700BB2545;
+			remoteInfo = Daemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E26E21C50E08541900781703 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				E26E21BC0E08540B00781703 /* X-Tunes Daemon.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* X-Tunes.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "X-Tunes.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E222941F0E085D9C00E07D92 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/License.rtf; sourceTree = "<group>"; };
+		E22DFBBD0E074F3900B49A70 /* X_Tunes_PreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = X_Tunes_PreferencePane.h; sourceTree = "<group>"; };
+		E22DFBBE0E074F3900B49A70 /* X_Tunes_PreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = X_Tunes_PreferencePane.m; sourceTree = "<group>"; };
+		E22DFBC10E074F4100B49A70 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		E22DFBD10E07500200B49A70 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E22DFBD30E07500200B49A70 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E22DFBD50E07500200B49A70 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/HotKeyButton.plist; sourceTree = "<group>"; };
+		E22DFBD70E07500200B49A70 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Help.rtf; sourceTree = "<group>"; };
+		E22DFBDB0E07500200B49A70 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/X_Tunes_PreferencePane.xib; sourceTree = "<group>"; };
+		E22DFBE60E0750CA00B49A70 /* HotKeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotKeyButton.m; sourceTree = "<group>"; };
+		E22DFBEA0E0750CA00B49A70 /* HotKeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotKeyButton.h; sourceTree = "<group>"; };
+		E22DFBF00E07514C00B49A70 /* X-Tunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "X-Tunes.h"; sourceTree = "<group>"; };
+		E24D2C950E949FDA00E298A9 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = "Xcode-Configurations/Release.xcconfig"; sourceTree = "<group>"; };
+		E24D2C960E949FDA00E298A9 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = "Xcode-Configurations/Debug.xcconfig"; sourceTree = "<group>"; };
+		E25EED3F0E0762A600F9A178 /* CPSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSPrivate.h; sourceTree = "<group>"; };
+		E25EED5B0E0762EB00F9A178 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		E2A365150E075EC700BB2545 /* X-Tunes Daemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-Tunes Daemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A3651F0E075EE700BB2545 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A3652A0E075F7600BB2545 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A3652B0E075F7600BB2545 /* Play.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Play.tiff; sourceTree = "<group>"; };
+		E2A3652C0E075F7600BB2545 /* FastForward.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FastForward.tiff; sourceTree = "<group>"; };
+		E2A3652D0E075F7600BB2545 /* Rewind.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Rewind.tiff; sourceTree = "<group>"; };
+		E2A3652E0E075F7600BB2545 /* Previous.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Previous.tiff; sourceTree = "<group>"; };
+		E2A3652F0E075F7600BB2545 /* Up.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Up.tiff; sourceTree = "<group>"; };
+		E2A365300E075F7600BB2545 /* Stop.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Stop.tiff; sourceTree = "<group>"; };
+		E2A365310E075F7600BB2545 /* Down.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Down.tiff; sourceTree = "<group>"; };
+		E2A365320E075F7600BB2545 /* Next.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Next.tiff; sourceTree = "<group>"; };
+		E2A365490E075FC900BB2545 /* OverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayWindow.m; sourceTree = "<group>"; };
+		E2A3654A0E075FC900BB2545 /* AppleScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleScript.h; sourceTree = "<group>"; };
+		E2A3654B0E075FC900BB2545 /* AppleScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleScript.m; sourceTree = "<group>"; };
+		E2A3654C0E075FC900BB2545 /* OverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayWindow.h; sourceTree = "<group>"; };
+		E2A3654D0E075FC900BB2545 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		E2A3654E0E075FC900BB2545 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2A3654F0E075FC900BB2545 /* DeamonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeamonController.h; sourceTree = "<group>"; };
+		E2A365500E075FC900BB2545 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		E2A365510E075FC900BB2545 /* DeamonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeamonController.m; sourceTree = "<group>"; };
+		E2A365700E07616900BB2545 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E2A365860E07625B00BB2545 /* DeamonApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeamonApplication.h; sourceTree = "<group>"; };
+		E2A365880E07625B00BB2545 /* DeamonApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeamonApplication.m; sourceTree = "<group>"; };
+		E2BC009B18779E3200ED7153 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Base.xcconfig; path = "Xcode-Configurations/Base.xcconfig"; sourceTree = "<group>"; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A365130E075EC700BB2545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A365750E07618500BB2545 /* Cocoa.framework in Frameworks */,
+				E25EED5C0E0762EB00F9A178 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* X-Tunes */ = {
+			isa = PBXGroup;
+			children = (
+				E22DFBF00E07514C00B49A70 /* X-Tunes.h */,
+				32DBCFA20370C41700C91783 /* Prefix.pch */,
+				08FB77AFFE84173DC02AAC07 /* PreferencePane Source */,
+				089C167CFE841241C02AAC07 /* PreferencePane Resources */,
+				E2A365450E075FA700BB2545 /* Daemon Source */,
+				E2A365250E075F4D00BB2545 /* Daemon Resources */,
+				E2FD0FB10E901AE7007A4958 /* PolKit */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "X-Tunes";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E25EED5B0E0762EB00F9A178 /* Carbon.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* PreferencePane Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E22DFBD00E07500200B49A70 /* InfoPlist.strings */,
+				E22DFBD20E07500200B49A70 /* Localizable.strings */,
+				E22DFBD40E07500200B49A70 /* HotKeyButton.plist */,
+				E22DFBDA0E07500200B49A70 /* X_Tunes_PreferencePane.xib */,
+				E22DFBD60E07500200B49A70 /* Help.rtf */,
+				E222941E0E085D9C00E07D92 /* License.rtf */,
+				E22DFBC10E074F4100B49A70 /* Icon.icns */,
+				E2A3651F0E075EE700BB2545 /* Info.plist */,
+			);
+			name = "PreferencePane Resources";
+			path = PreferencePane;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* PreferencePane Source */ = {
+			isa = PBXGroup;
+			children = (
+				E22DFBBD0E074F3900B49A70 /* X_Tunes_PreferencePane.h */,
+				E22DFBBE0E074F3900B49A70 /* X_Tunes_PreferencePane.m */,
+				E22DFBEA0E0750CA00B49A70 /* HotKeyButton.h */,
+				E22DFBE60E0750CA00B49A70 /* HotKeyButton.m */,
+			);
+			name = "PreferencePane Source";
+			path = PreferencePane;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* X-Tunes.prefPane */,
+				E2A365150E075EC700BB2545 /* X-Tunes Daemon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2A365250E075F4D00BB2545 /* Daemon Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2A3656F0E07616900BB2545 /* MainMenu.xib */,
+				E2A3652B0E075F7600BB2545 /* Play.tiff */,
+				E2A3652C0E075F7600BB2545 /* FastForward.tiff */,
+				E2A3652D0E075F7600BB2545 /* Rewind.tiff */,
+				E2A3652E0E075F7600BB2545 /* Previous.tiff */,
+				E2A3652F0E075F7600BB2545 /* Up.tiff */,
+				E2A365300E075F7600BB2545 /* Stop.tiff */,
+				E2A365310E075F7600BB2545 /* Down.tiff */,
+				E2A365320E075F7600BB2545 /* Next.tiff */,
+				E2A3652A0E075F7600BB2545 /* Info.plist */,
+			);
+			name = "Daemon Resources";
+			path = Daemon;
+			sourceTree = "<group>";
+		};
+		E2A365450E075FA700BB2545 /* Daemon Source */ = {
+			isa = PBXGroup;
+			children = (
+				E25EED3F0E0762A600F9A178 /* CPSPrivate.h */,
+				E2A3654E0E075FC900BB2545 /* main.m */,
+				E2A3654A0E075FC900BB2545 /* AppleScript.h */,
+				E2A3654B0E075FC900BB2545 /* AppleScript.m */,
+				E2A365860E07625B00BB2545 /* DeamonApplication.h */,
+				E2A365880E07625B00BB2545 /* DeamonApplication.m */,
+				E2A3654F0E075FC900BB2545 /* DeamonController.h */,
+				E2A365510E075FC900BB2545 /* DeamonController.m */,
+				E2A3654C0E075FC900BB2545 /* OverlayWindow.h */,
+				E2A365490E075FC900BB2545 /* OverlayWindow.m */,
+				E2A365500E075FC900BB2545 /* OverlayView.h */,
+				E2A3654D0E075FC900BB2545 /* OverlayView.m */,
+			);
+			name = "Daemon Source";
+			path = Daemon;
+			sourceTree = "<group>";
+		};
+		E2FD0FB10E901AE7007A4958 /* PolKit */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC009B18779E3200ED7153 /* Base.xcconfig */,
+				E24D2C960E949FDA00E298A9 /* Debug.xcconfig */,
+				E24D2C950E949FDA00E298A9 /* Release.xcconfig */,
+			);
+			path = PolKit;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* Preference Pane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "Preference Pane" */;
+			buildPhases = (
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				E26E21C50E08541900781703 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Preference Pane";
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = "X-Tunes";
+			productReference = 8D202CF80486D31800D8A456 /* X-Tunes.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E2A365140E075EC700BB2545 /* Daemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A3651A0E075EC700BB2545 /* Build configuration list for PBXNativeTarget "Daemon" */;
+			buildPhases = (
+				E2A365110E075EC700BB2545 /* Resources */,
+				E2A365120E075EC700BB2545 /* Sources */,
+				E2A365130E075EC700BB2545 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daemon;
+			productName = Daemon;
+			productReference = E2A365150E075EC700BB2545 /* X-Tunes Daemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "X-Tunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* X-Tunes */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2A365010E075E7300BB2545 /* Build All */,
+				8D202CE80486D31800D8A456 /* Preference Pane */,
+				E2A365140E075EC700BB2545 /* Daemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22DFBC30E074F4100B49A70 /* Icon.icns in Resources */,
+				E22DFBDC0E07500200B49A70 /* InfoPlist.strings in Resources */,
+				E22DFBDD0E07500200B49A70 /* Localizable.strings in Resources */,
+				E22DFBDE0E07500200B49A70 /* HotKeyButton.plist in Resources */,
+				E22DFBDF0E07500200B49A70 /* Help.rtf in Resources */,
+				E22DFBE10E07500200B49A70 /* X_Tunes_PreferencePane.xib in Resources */,
+				E22294200E085D9C00E07D92 /* License.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A365110E075EC700BB2545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A365340E075F7600BB2545 /* Play.tiff in Resources */,
+				E2A365350E075F7600BB2545 /* FastForward.tiff in Resources */,
+				E2A365360E075F7600BB2545 /* Rewind.tiff in Resources */,
+				E2A365370E075F7600BB2545 /* Previous.tiff in Resources */,
+				E2A365380E075F7600BB2545 /* Up.tiff in Resources */,
+				E2A365390E075F7600BB2545 /* Stop.tiff in Resources */,
+				E2A3653A0E075F7600BB2545 /* Down.tiff in Resources */,
+				E2A3653B0E075F7600BB2545 /* Next.tiff in Resources */,
+				E2A365710E07616900BB2545 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22DFBC00E074F3900B49A70 /* X_Tunes_PreferencePane.m in Sources */,
+				E22DFBEB0E0750CA00B49A70 /* HotKeyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A365120E075EC700BB2545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A365520E075FC900BB2545 /* OverlayWindow.m in Sources */,
+				E2A365530E075FC900BB2545 /* AppleScript.m in Sources */,
+				E2A365540E075FC900BB2545 /* OverlayView.m in Sources */,
+				E2A365550E075FC900BB2545 /* main.m in Sources */,
+				E2A365560E075FC900BB2545 /* DeamonController.m in Sources */,
+				E2A3658A0E07625B00BB2545 /* DeamonApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2A365050E075E7B00BB2545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D202CE80486D31800D8A456 /* Preference Pane */;
+			targetProxy = E2A365040E075E7B00BB2545 /* PBXContainerItemProxy */;
+		};
+		E2A365220E075EEF00BB2545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2A365140E075EC700BB2545 /* Daemon */;
+			targetProxy = E2A365210E075EEF00BB2545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E222941E0E085D9C00E07D92 /* License.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E222941F0E085D9C00E07D92 /* English */,
+			);
+			name = License.rtf;
+			sourceTree = "<group>";
+		};
+		E22DFBD00E07500200B49A70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22DFBD10E07500200B49A70 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E22DFBD20E07500200B49A70 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22DFBD30E07500200B49A70 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E22DFBD40E07500200B49A70 /* HotKeyButton.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22DFBD50E07500200B49A70 /* English */,
+			);
+			name = HotKeyButton.plist;
+			sourceTree = "<group>";
+		};
+		E22DFBD60E07500200B49A70 /* Help.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22DFBD70E07500200B49A70 /* English */,
+			);
+			name = Help.rtf;
+			sourceTree = "<group>";
+		};
+		E22DFBDA0E07500200B49A70 /* X_Tunes_PreferencePane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22DFBDB0E07500200B49A70 /* English */,
+			);
+			name = X_Tunes_PreferencePane.xib;
+			sourceTree = "<group>";
+		};
+		E2A3656F0E07616900BB2545 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A365700E07616900BB2545 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PreferencePane/Info.plist;
+				PRODUCT_NAME = "X-Tunes";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PreferencePane/Info.plist;
+				PRODUCT_NAME = "X-Tunes";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24D2C960E949FDA00E298A9 /* Debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24D2C950E949FDA00E298A9 /* Release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2A365020E075E7300BB2545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build All";
+			};
+			name = Debug;
+		};
+		E2A365030E075E7300BB2545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build All";
+			};
+			name = Release;
+		};
+		E2A365180E075EC700BB2545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Daemon/Info.plist;
+				PRODUCT_NAME = "X-Tunes Daemon";
+			};
+			name = Debug;
+		};
+		E2A365190E075EC700BB2545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Daemon/Info.plist;
+				PRODUCT_NAME = "X-Tunes Daemon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "Preference Pane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "X-Tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A3650F0E075E9E00BB2545 /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A365020E075E7300BB2545 /* Debug */,
+				E2A365030E075E7300BB2545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A3651A0E075EC700BB2545 /* Build configuration list for PBXNativeTarget "Daemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A365180E075EC700BB2545 /* Debug */,
+				E2A365190E075EC700BB2545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

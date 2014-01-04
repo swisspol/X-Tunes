@@ -1,0 +1,3 @@
+[submodule "PolKit"]
+	path = PolKit
+	url = https://github.com/swisspol/PolKit.git
